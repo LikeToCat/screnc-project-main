@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="win10_Debug|Win32">
+      <Configuration>win10_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="win10_Debug|x64">
+      <Configuration>win10_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="win7_Debug|Win32">
+      <Configuration>win7_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="win7_Debug|x64">
+      <Configuration>win7_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="win7_release|Win32">
+      <Configuration>win7_release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="win7_release|x64">
+      <Configuration>win7_release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{65F0CB04-08CC-4555-9296-694D97A86825}</ProjectGuid>
+    <RootNamespace>MFCMediaPlayer</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <ProjectName>ScreenRecordingProject</ProjectName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='win7_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='win10_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='win7_Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='win10_Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='win7_release|Win32'">
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='win7_release|x64'" Label="Configuration">
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='win7_Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='win10_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='win7_Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='win10_Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='win7_Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>.\bin\Win7\Debug\x86</OutDir>
+    <TargetName>ScreenRec</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='win10_Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>.\bin\Win10\Debug\x86</OutDir>
+    <TargetName>ScreenRec</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='win7_Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>.\bin\Debug\x64</OutDir>
+    <TargetName>ScreenRec</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='win10_Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>.\bin\Debug\x64</OutDir>
+    <TargetName>ScreenRec</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='win7_release|Win32'">
+    <OutDir>.\bin\Win7\Release\x86</OutDir>
+    <TargetName>ScreenRec</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='win7_release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>.\bin\Release\x64</OutDir>
+    <TargetName>ScreenRec</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='win7_Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;TARGET_WIN7;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>.\third_library\SDL2_image-2.8.2\include;.\third_library\SDL2_ttf-2.20.1\include;.\third_library\SDL2-2.28.1\include;.\third_library\ffmpeg_win7\x86\include;.\third_library\curl_release\x86\include\curl;.\third_library\jsoncpp\x64\include;.\third_library\SDL2_gfx-1.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\third_library\SDL2_image-2.8.2\lib\x86;.\third_library\SDL2_ttf-2.20.1\lib\x86;.\third_library\ffmpeg_win7\x86\lib;.\third_library\curl_release\x86\lib;.\third_library\SDL2-2.28.1\lib\x86;.\third_library\SDL2_gfx-1.0.4\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>postproc.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;swscale.lib;SDL2_image.lib;SDL2_ttf.lib;libcurl.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_gfx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='win10_Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;TARGET_WIN10;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>.\third_library\SDL2_image-2.8.2\include;.\third_library\SDL2_ttf-2.20.1\include;.\third_library\SDL2-2.28.1\include;.\third_library\ffmpeg_win10_win11_x86\include;.\third_library\curl_release\x86\include\curl;.\third_library\jsoncpp\x64\include;.\third_library\SDL2_gfx-1.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\third_library\SDL2_image-2.8.2\lib\x86;.\third_library\SDL2_ttf-2.20.1\lib\x86;.\third_library\ffmpeg_win10_win11_x86\lib;.\third_library\curl_release\x86\lib;.\third_library\SDL2-2.28.1\lib\x86;.\third_library\SDL2_gfx-1.0.4\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>postproc.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;swscale.lib;SDL2_image.lib;SDL2_ttf.lib;libcurl.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_gfx.lib;dxgi.lib;d3d11.lib;d3dcompiler.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='win7_Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Custom</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;WINVER=0x0601;_WIN32_WINNT=0x0601;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>.\third_library\SDL2_image-2.8.2\include;.\third_library\SDL2_ttf-2.20.1\include;.\third_library\SDL2-2.28.1\include;.\third_library\ffmpeg_win7\x64\include;.\third_library\zlib\include;.\third_library\jsoncpp\x64\include;.\third_library\curl\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\third_library\SDL2_image-2.8.2\lib\x64;.\third_library\SDL2_ttf-2.20.1\lib\x64;.\third_library\SDL2-2.28.1\lib\x64;.\third_library\ffmpeg_win7\x64\lib;.\third_library\zlib\lib;.\third_library\curl\x64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;swscale.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_ttf.lib;SDL2_image.lib;libcurld.lib;minizip.lib;zlib.lib;Crypt32.lib;dxgi.lib;d3d11.lib;d3dcompiler.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <MinimumRequiredVersion>6.1</MinimumRequiredVersion>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='win10_Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Custom</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;WINVER=0x0601;_WIN32_WINNT=0x0601;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>.\third_library\SDL2_image-2.8.2\include;.\third_library\SDL2_ttf-2.20.1\include;.\third_library\SDL2-2.28.1\include;.\third_library\ffmpeg_win7\x64\include;.\third_library\zlib\include;.\third_library\jsoncpp\x64\include;.\third_library\curl\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\third_library\SDL2_image-2.8.2\lib\x64;.\third_library\SDL2_ttf-2.20.1\lib\x64;.\third_library\SDL2-2.28.1\lib\x64;.\third_library\ffmpeg_win7\x64\lib;.\third_library\zlib\lib;.\third_library\curl\x64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;swscale.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_ttf.lib;SDL2_image.lib;libcurld.lib;minizip.lib;zlib.lib;Crypt32.lib;dxgi.lib;d3d11.lib;d3dcompiler.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <MinimumRequiredVersion>6.1</MinimumRequiredVersion>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='win7_release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>.\third_library\SDL2_image-2.8.2\include;.\third_library\SDL2_ttf-2.20.1\include;.\third_library\SDL2-2.28.1\include;.\third_library\ffmpeg_win7\x86\include;.\third_library\curl_release\x86\include\curl;.\third_library\jsoncpp\x64\include;.\third_library\SDL2_gfx-1.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>Default</LanguageStandard>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;TARGET_WIN7;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization>Full</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>.\third_library\SDL2_image-2.8.2\lib\x86;.\third_library\SDL2_ttf-2.20.1\lib\x86;.\third_library\ffmpeg_win7\x86\lib;.\third_library\curl_release\x86\lib;.\third_library\SDL2-2.28.1\lib\x86;.\third_library\SDL2_gfx-1.0.4\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>postproc.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;swscale.lib;SDL2_image.lib;SDL2_ttf.lib;libcurl.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_gfx.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='win7_release|x64'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>.\third_library\SDL2_image-2.8.2\include;.\third_library\SDL2_ttf-2.20.1\include;.\third_library\SDL2-2.28.1\include;.\third_library\ffmpeg_win7\x64\include;.\third_library\curl_release\x64\include\curl;.\third_library\jsoncpp\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>Default</LanguageStandard>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>.\third_library\SDL2_image-2.8.2\lib\x64;.\third_library\SDL2_ttf-2.20.1\lib\x64;.\third_library\SDL2-2.28.1\lib\x64;.\third_library\ffmpeg_win7\x64\lib;.\third_library\curl_release\x64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;swscale.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;SDL2_image.lib;SDL2_ttf.lib;libcurl.lib;dxgi.lib;d3d11.lib;d3dcompiler.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="计划.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\OpenGL\glad\include\KHR\khrplatform.h" />
+    <ClInclude Include="AppCloseManager.h" />
+    <ClInclude Include="AreaSelectDlg.h" />
+    <ClInclude Include="AudioCapture.h" />
+    <ClInclude Include="AutoStartManager.h" />
+    <ClInclude Include="CameraCapture.h" />
+    <ClInclude Include="CColorfulEdit.h" />
+    <ClInclude Include="CDebug.h" />
+    <ClInclude Include="CLarBtn.h" />
+    <ClInclude Include="CLarEdit.h" />
+    <ClInclude Include="CLarListBox.h" />
+    <ClInclude Include="CLarToolsTips.h" />
+    <ClInclude Include="CLazerStaticText.h" />
+    <ClInclude Include="CMessage.h" />
+    <ClInclude Include="ComponentAPI.h" />
+    <ClInclude Include="ComponentClass.h" />
+    <ClInclude Include="ConfigFileHandler.h" />
+    <ClInclude Include="CScrollClipManager.h" />
+    <ClInclude Include="CScrollMemDC.h" />
+    <ClInclude Include="CompatibleManager.h" />
+    <ClInclude Include="CTimer.h" />
+    <ClInclude Include="DeviceManager.h" />
+    <ClInclude Include="DialogManager.h" />
+    <ClInclude Include="DXGICapture.h" />
+    <ClInclude Include="FFmpegTest.h" />
+    <ClInclude Include="GameFocusDetector.h" />
+    <ClInclude Include="GDICapture.h" />
+    <ClInclude Include="glad.h" />
+    <ClInclude Include="GlobalFunc.h" />
+    <ClInclude Include="HandleCapture.h" />
+    <ClInclude Include="CLarPngBtn.h" />
+    <ClInclude Include="HttpRequestHandler.h" />
+    <ClInclude Include="LarPaymentPolling.h" />
+    <ClInclude Include="ModalDialogFunc.h" />
+    <ClInclude Include="PngLoader.h" />
+    <ClInclude Include="SDLResource.h" />
+    <ClInclude Include="SDL_AnimaSystemCommon.h" />
+    <ClInclude Include="Ui_AreaRecordingSDL.h" />
+    <ClInclude Include="Ui_CameraDisplaySDL.h" />
+    <ClInclude Include="Ui_CameraDlg.h" />
+    <ClInclude Include="Ui_CameraPreviewSDL.h" />
+    <ClInclude Include="Ui_ChildDlg.h" />
+    <ClInclude Include="Ui_ConfigDlg.h" />
+    <ClInclude Include="Ui_DeviceBindingSDL.h" />
+    <ClInclude Include="Ui_GamingDlg.h" />
+    <ClInclude Include="Ui_LevelUpDlg.h" />
+    <ClInclude Include="Ui_LoadingSDL.h" />
+    <ClInclude Include="Ui_LoginDlg.h" />
+    <ClInclude Include="Ui_MainDlg.h" />
+    <ClInclude Include="theApp.h" />
+    <ClInclude Include="MFCMediaPlayerDlg.h" />
+    <ClInclude Include="MicrophoneCapture.h" />
+    <ClInclude Include="RecordingStats.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ScreenRecorder.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="LarStringConversion.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Ui_DropdownMenuSDL.h" />
+    <ClInclude Include="Ui_MessageBoxSDL.h" />
+    <ClInclude Include="Ui_NoneVipDlg.h" />
+    <ClInclude Include="Ui_PopupMenuDlg.h" />
+    <ClInclude Include="Ui_RadarTimerSDL.h" />
+    <ClInclude Include="Ui_RaiSDL.h" />
+    <ClInclude Include="Ui_RecTopDlg.h" />
+    <ClInclude Include="Ui_RedPacketSDL.h" />
+    <ClInclude Include="Ui_ScreenCaptureDlg.h" />
+    <ClInclude Include="Ui_SDLButton.h" />
+    <ClInclude Include="Ui_SDLMeau.h" />
+    <ClInclude Include="UI_MouthMemberDlg.h" />
+    <ClInclude Include="Ui_TestGLSDL.h" />
+    <ClInclude Include="LLarSDL.h" />
+    <ClInclude Include="Ui_UserProfileDlg.h" />
+    <ClInclude Include="Ui_UserProfileSDL.h" />
+    <ClInclude Include="Ui_VideoListDlg.h" />
+    <ClInclude Include="Ui_VipPayDlg.h" />
+    <ClInclude Include="Ui_WindowRecordDlg.h" />
+    <ClInclude Include="UserActionLogger.h" />
+    <ClInclude Include="WasapiCapture.h" />
+    <ClInclude Include="WindowHandleManager.h" />
+    <ClInclude Include="WndShadow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppCloseManager.cpp" />
+    <ClCompile Include="AreaSelectDlg.cpp" />
+    <ClCompile Include="AudioCapture.cpp" />
+    <ClCompile Include="AutoStartManager.cpp" />
+    <ClCompile Include="CameraCapture.cpp" />
+    <ClCompile Include="CColorfulEdit.cpp" />
+    <ClCompile Include="CLarBtn.cpp" />
+    <ClCompile Include="CLarEdit.cpp" />
+    <ClCompile Include="CLarListBox.cpp" />
+    <ClCompile Include="CLARTOOLSTIPS.CPP" />
+    <ClCompile Include="CLarToolTips.cpp" />
+    <ClCompile Include="CLazerStaticText.cpp" />
+    <ClCompile Include="CompatibleManager.cpp" />
+    <ClCompile Include="ComponentAPI.cpp" />
+    <ClCompile Include="ComponentClass.cpp" />
+    <ClCompile Include="DeviceManager.cpp" />
+    <ClCompile Include="DialogManager.cpp" />
+    <ClCompile Include="DXGICapture.cpp" />
+    <ClCompile Include="FFmpegTest.cpp" />
+    <ClCompile Include="GameFocusDetector.cpp" />
+    <ClCompile Include="GDICapture.cpp" />
+    <ClCompile Include="glad.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='win7_Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="GlobalFunc.cpp" />
+    <ClCompile Include="HandleCapture.cpp" />
+    <ClCompile Include="CLarPngBtn.cpp" />
+    <ClCompile Include="HttpRequestHandler.cpp" />
+    <ClCompile Include="json_reader.cpp" />
+    <ClCompile Include="json_value.cpp" />
+    <ClCompile Include="json_writer.cpp" />
+    <ClCompile Include="LarPaymentPolling.cpp" />
+    <ClCompile Include="ModalDialogFunc.cpp" />
+    <ClCompile Include="PngLoader.cpp" />
+    <ClCompile Include="SDL_AnimaSystemCommon.cpp" />
+    <ClCompile Include="Ui_AreaRecordingSDL.cpp" />
+    <ClCompile Include="Ui_CameraDisplaySDL.cpp" />
+    <ClCompile Include="Ui_CameraDlg.cpp" />
+    <ClCompile Include="Ui_CameraPreviewSDL.cpp" />
+    <ClCompile Include="Ui_ChildDlg.cpp" />
+    <ClCompile Include="Ui_ConfigDlg.cpp" />
+    <ClCompile Include="Ui_DeviceBindingSDL.cpp" />
+    <ClCompile Include="Ui_GamingDlg.cpp" />
+    <ClCompile Include="Ui_LevelUpDlg.cpp" />
+    <ClCompile Include="Ui_LoadingSDL.cpp" />
+    <ClCompile Include="Ui_LoginDlg.cpp" />
+    <ClCompile Include="Ui_MainDlg.cpp" />
+    <ClCompile Include="theApp.cpp" />
+    <ClCompile Include="MFCMediaPlayerDlg.cpp" />
+    <ClCompile Include="MicrophoneCapture.cpp" />
+    <ClCompile Include="RecordingStats.cpp" />
+    <ClCompile Include="ScreenRecorder.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='win7_Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='win10_Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='win7_Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='win10_Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="LarStringConversion.cpp" />
+    <ClCompile Include="Ui_DropdownMenuSDL.cpp" />
+    <ClCompile Include="Ui_MessageBoxSDL.cpp" />
+    <ClCompile Include="Ui_NoneVipDlg.cpp" />
+    <ClCompile Include="Ui_PopupMenuDlg.cpp" />
+    <ClCompile Include="Ui_RadarTimerSDL.cpp" />
+    <ClCompile Include="Ui_RaiSDL.cpp" />
+    <ClCompile Include="Ui_RecTopDlg.cpp" />
+    <ClCompile Include="Ui_RedPacketSDL.cpp" />
+    <ClCompile Include="Ui_ScreenCaptureDlg.cpp" />
+    <ClCompile Include="Ui_SDLButton.cpp" />
+    <ClCompile Include="Ui_SDLMeau.cpp" />
+    <ClCompile Include="UI_MouthMemberDlg.cpp" />
+    <ClCompile Include="Ui_TestGLSDL.cpp" />
+    <ClCompile Include="LLarSDL.cpp" />
+    <ClCompile Include="Ui_UserProfileDlg.cpp" />
+    <ClCompile Include="Ui_UserProfileSDL.cpp" />
+    <ClCompile Include="Ui_VideoListDlg.cpp" />
+    <ClCompile Include="Ui_VipPayDlg.cpp" />
+    <ClCompile Include="Ui_WindowRecordDlg.cpp" />
+    <ClCompile Include="UserActionLogger.cpp" />
+    <ClCompile Include="WasapiCapture.cpp" />
+    <ClCompile Include="WindowHandleManager.cpp" />
+    <ClCompile Include="WndShadow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCMediaPlayer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+    <None Include="res\MFCMediaPlayer.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\addWindow.png" />
+    <Image Include="res\advanceOpt.png" />
+    <Image Include="res\AppIocn.png" />
+    <Image Include="res\ApptrayIco.ico" />
+    <Image Include="res\apptrayicon.ico" />
+    <Image Include="res\camera.png" />
+    <Image Include="res\CkAudio.png" />
+    <Image Include="res\CkAudio_Hold.png" />
+    <Image Include="res\CkMicro.png" />
+    <Image Include="res\CkMicro_Hold.png" />
+    <Image Include="res\CloseNoneVip.png" />
+    <Image Include="res\ContactService.bmp" />
+    <Image Include="res\ContactService.png" />
+    <Image Include="res\Icon.png" />
+    <Image Include="res\kaijiqidong.png" />
+    <Image Include="res\kaijiqidong_hold.png" />
+    <Image Include="res\loginGou.png" />
+    <Image Include="res\MessageBoxQuestionType.png" />
+    <Image Include="res\MFCMediaPlayer.ico" />
+    <Image Include="res\minimal.png" />
+    <Image Include="res\minimaltobar.png" />
+    <Image Include="res\minimaltobar_hold.png" />
+    <Image Include="res\MouseAreaRecord.png" />
+    <Image Include="res\mouseds_hold.png" />
+    <Image Include="res\NoCkAudio.png" />
+    <Image Include="res\NoCkAudio_Hold.png" />
+    <Image Include="res\NoCkMicro.png" />
+    <Image Include="res\NoCkMicro_Hold.png" />
+    <Image Include="res\NoNail.png" />
+    <Image Include="res\payforlong.png" />
+    <Image Include="res\quit.png" />
+    <Image Include="res\quit_hold.png" />
+    <Image Include="res\record.png" />
+    <Image Include="res\recording.png" />
+    <Image Include="res\Refresh.png" />
+    <Image Include="res\Reocrding24.png" />
+    <Image Include="res\Return_WWDLG.png" />
+    <Image Include="res\ScreenRec.ico" />
+    <Image Include="res\ScreeShot.png" />
+    <Image Include="res\seasonbk.png" />
+    <Image Include="res\signout.bmp" />
+    <Image Include="res\signout.png" />
+    <Image Include="res\SliderBk.bmp" />
+    <Image Include="res\SliderBk2.bmp" />
+    <Image Include="res\SliderDk.bmp" />
+    <Image Include="res\SliderDk2.bmp" />
+    <Image Include="res\SliderThumb.bmp" />
+    <Image Include="res\Slider_thumb.bmp" />
+    <Image Include="res\Thumb.bmp" />
+    <Image Include="res\thumb.png" />
+    <Image Include="res\thump.bmp" />
+    <Image Include="res\topnail.png" />
+    <Image Include="res\top播放.png" />
+    <Image Include="res\top暂停.png" />
+    <Image Include="res\transparent.png" />
+    <Image Include="res\VIP.bmp" />
+    <Image Include="res\VIP.png" />
+    <Image Include="res\VLD_Close.png" />
+    <Image Include="res\VLD_retrun.png" />
+    <Image Include="res\water.png" />
+    <Image Include="res\wateron.png" />
+    <Image Include="res\xialkashuangxian.png" />
+    <Image Include="res\下拉.png" />
+    <Image Include="res\二维码.png" />
+    <Image Include="res\停止.png" />
+    <Image Include="res\停止hov.png" />
+    <Image Include="res\原价220元.png" />
+    <Image Include="res\向上.png" />
+    <Image Include="res\批量删除.png" />
+    <Image Include="res\播放.png" />
+    <Image Include="res\播放hov.png" />
+    <Image Include="res\暂停.png" />
+    <Image Include="res\暂停hov.png" />
+    <Image Include="res\直线 14.png" />
+    <Image Include="res\直线 2.png" />
+    <Image Include="res\直线 4.png" />
+    <Image Include="res\直线 5.png" />
+    <Image Include="res\矩形 14957.png" />
+    <Image Include="res\矩形 19.png" />
+    <Image Include="res\矩形 9.png" />
+    <Image Include="res\组 16161.png" />
+    <Image Include="res\组 16164.png" />
+    <Image Include="res\组 16172.png" />
+    <Image Include="res\组 16173.png" />
+    <Image Include="res\组 16176.png" />
+    <Image Include="res\组 16177.png" />
+    <Image Include="res\组 16178.png" />
+    <Image Include="res\组 16183 hover.png" />
+    <Image Include="res\组 16183.png" />
+    <Image Include="res\组 16190.png" />
+    <Image Include="res\组 16210.png" />
+    <Image Include="res\组 16215.png" />
+    <Image Include="res\组 16216.png" />
+    <Image Include="res\组 16217.png" />
+    <Image Include="res\组 16218.png" />
+    <Image Include="res\组 16219.png" />
+    <Image Include="res\组 16220.png" />
+    <Image Include="res\组 16221.png" />
+    <Image Include="res\组 16222.png" />
+    <Image Include="res\组 16226.png" />
+    <Image Include="res\组 16227.png" />
+    <Image Include="res\组 16228.png" />
+    <Image Include="res\组 16229.png" />
+    <Image Include="res\组 16230.png" />
+    <Image Include="res\组 16231.png" />
+    <Image Include="res\组 16232.png" />
+    <Image Include="res\组 16234.png" />
+    <Image Include="res\组 16235.png" />
+    <Image Include="res\组 16237.png" />
+    <Image Include="res\组 16239.png" />
+    <Image Include="res\组 16243.png" />
+    <Image Include="res\组 16244.png" />
+    <Image Include="res\组 16245.png" />
+    <Image Include="res\组 16246.png" />
+    <Image Include="res\组 16248.png" />
+    <Image Include="res\组 16249.png" />
+    <Image Include="res\组 16251.png" />
+    <Image Include="res\组 16297.png" />
+    <Image Include="res\组 16298.png" />
+    <Image Include="res\组 16300.png" />
+    <Image Include="res\组 16303.png" />
+    <Image Include="res\组 16304.png" />
+    <Image Include="res\组 16305.png" />
+    <Image Include="res\组 16306.png" />
+    <Image Include="res\组 16307.png" />
+    <Image Include="res\组 16308.png" />
+    <Image Include="res\组 16336.png" />
+    <Image Include="res\组 16337.png" />
+    <Image Include="res\组 16339.png" />
+    <Image Include="res\组 16368.png" />
+    <Image Include="res\组 16452.png" />
+    <Image Include="res\组 16474.png" />
+    <Image Include="res\组 16475.png" />
+    <Image Include="res\组 16489.png" />
+    <Image Include="res\组 16491.png" />
+    <Image Include="res\组 16494.png" />
+    <Image Include="res\组 16495.png" />
+    <Image Include="res\组 16496.png" />
+    <Image Include="res\组 16498.png" />
+    <Image Include="res\组 16550.png" />
+    <Image Include="res\组 9%402x.png" />
+    <Image Include="res\路径 15982.png" />
+    <Image Include="res\路径 15994.png" />
+    <Image Include="res\路径 16013.png" />
+    <Image Include="res\路径 35.png" />
+    <Image Include="res\高级选项.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="MFCMediaPlayer.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

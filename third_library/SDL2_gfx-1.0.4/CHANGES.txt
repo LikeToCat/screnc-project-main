@@ -1,0 +1,14 @@
+1.0.4:
+ * fix int overflow in ellipseRGBA for large radii (thanks for reporting David)
+ * fix aaline wrong direction hline bug (thanks Andre)
+ * fix off-by-1 error in rotateSurface90Degrees (thanks Austin)
+
+1.0.3:
+ * 
+
+1.0.1:
+ * 
+
+1.0.0:
+ * 
+

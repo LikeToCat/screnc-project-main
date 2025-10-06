@@ -1,0 +1,15 @@
+[dshow @ 000001f1ccf92c00] DirectShow video devices (some may be both video and audio devices)
+[dshow @ 000001f1ccf92c00]  "Integrated Camera"
+[dshow @ 000001f1ccf92c00]     Alternative name "@device_pnp_\\?\usb#vid_5986&pid_1160&mi_00#6&16684dcd&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global"
+[dshow @ 000001f1ccf92c00]  "screen-capture-dxgi-qq35744025"
+[dshow @ 000001f1ccf92c00]     Alternative name "@device_sw_{860BB310-5D01-11D0-BD3B-00A0C911CE86}\{0EB0E587-4995-4F41-91B1-90983DB06927}"
+[dshow @ 000001f1ccf92c00]  "screen-capture-recorder"
+[dshow @ 000001f1ccf92c00]     Alternative name "@device_sw_{860BB310-5D01-11D0-BD3B-00A0C911CE86}\{4EA69364-2C8A-4AE6-A561-56E4B5044439}"
+[dshow @ 000001f1ccf92c00] DirectShow audio devices
+[dshow @ 000001f1ccf92c00]  "麦克风 (Realtek(R) Audio)"
+[dshow @ 000001f1ccf92c00]     Alternative name "@device_cm_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\wave_{A27C7159-90C0-4A69-9643-384D36D3EE06}"
+[dshow @ 000001f1ccf92c00]  "麦克风阵列 (Realtek(R) Audio)"
+[dshow @ 000001f1ccf92c00]     Alternative name "@device_cm_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\wave_{4382D05A-8A6F-4E7A-9218-2A96CC67EA83}"
+[dshow @ 000001f1ccf92c00]  "立体声混音 (Realtek(R) Audio)"
+[dshow @ 000001f1ccf92c00]     Alternative name "@device_cm_{33D9A762-90C8-11D0-BD43-00A0C911CE86}\wave_{66848396-5921-401A-99EB-78BA30F4768F}"
+dummy: Immediate exit requested

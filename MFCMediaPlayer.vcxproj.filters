@@ -1,0 +1,1096 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CoreFuction">
+      <UniqueIdentifier>{3c6521e1-b5b8-405b-b204-e47d756d74f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreFuction\CoreFunction_Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="CoreFuction\CoreFunction_Cpp">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AppMain">
+      <UniqueIdentifier>{1b07ab46-e71d-4900-aed7-b74c0cae1661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppMain\Header">
+      <UniqueIdentifier>{da098b9c-7338-4914-b7c0-0a9614c26cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppMain\Cpp">
+      <UniqueIdentifier>{c6e22f45-6998-4a9c-bfba-44c3ddb758ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreFuction\CoreFunction_Header\CameraFuction_H">
+      <UniqueIdentifier>{9a99b366-8ecd-4b7c-93b5-f2479d15e595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreFuction\CoreFunction_Cpp\CameraFunction_Cpp">
+      <UniqueIdentifier>{2c98f0a0-30c1-43fa-a8d7-17e61f4eabb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreFuction\CoreFunction_Cpp\AudioFuction_Cpp">
+      <UniqueIdentifier>{b17fb1ea-dc77-4212-9f7c-1f87c8910d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreFuction\CoreFunction_Cpp\VideoFuction_Cpp">
+      <UniqueIdentifier>{7e0cbb69-0801-487d-ba87-ef3c85e0cfe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreFuction\CoreFunction_Cpp\MicroFuction_Cpp">
+      <UniqueIdentifier>{993a7b80-4b07-47eb-ab72-f0019e4183ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreFuction\CoreFunction_Header\MicroFuction_H">
+      <UniqueIdentifier>{30db488c-0a57-44ca-beb1-8f179f292a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreFuction\CoreFunction_Header\AudioFuction_H">
+      <UniqueIdentifier>{5bdf507f-3ec6-4212-855d-6b669c1d2d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{d1b21a4a-c454-460e-a9ff-8f2d4c60fe5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global\Global_Cpp">
+      <UniqueIdentifier>{6cdfb801-9436-479e-a817-5a73f90cae3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global\Global_H">
+      <UniqueIdentifier>{dbcb8158-a75f-46b7-85f8-b80424111790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreFuction\CoreFunction_Cpp\ScreenRecordCore_Cpp">
+      <UniqueIdentifier>{33a5f019-7dfd-4b55-b3a3-c3c919c4c3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreFuction\CoreFunction_Header\ScreenRecordCore_H">
+      <UniqueIdentifier>{4ee000ec-5f17-4f03-bd60-37d63c9d74fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonCpp">
+      <UniqueIdentifier>{00f8321b-5a77-46ff-be80-f1552f2a8fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonCpp\JsonCpp_Cpp">
+      <UniqueIdentifier>{ae1c4ab8-de80-4fd0-987a-b6abba0b9b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreFuction\CoreFunction_Header\OtherCoreFuction_H">
+      <UniqueIdentifier>{ad60f00a-e8b1-42f5-8846-03fced5f585c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreFuction\CoreFunction_Cpp\OtherCoreFunction_Cpp">
+      <UniqueIdentifier>{ab836e9b-bd24-4ee7-bcb8-c6094bc13a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC_Ctrl">
+      <UniqueIdentifier>{e8945bb2-e25b-4e69-bf19-7bf03809b12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC_Ctrl\Ui_CtrlReWrite_Cpp">
+      <UniqueIdentifier>{85fcf913-73b7-4b12-b791-d78899fd6ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC_Ctrl\Ui_CtrlReWrite_Header">
+      <UniqueIdentifier>{f7fc9393-967d-41e9-9179-e73129128e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui_Component">
+      <UniqueIdentifier>{952e5f79-e518-4795-ac41-823ddf26313e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui_Component\Ui_Component_H">
+      <UniqueIdentifier>{b604f6ac-63d8-4c3e-949d-2a03465ff095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui_Component\Ui_Component_Cpp">
+      <UniqueIdentifier>{db9be62d-c9bc-4722-849a-5d6e6e11ba23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreFuction\CoreFunction_Header\VideoFuction_H">
+      <UniqueIdentifier>{ca1d1e6f-8ff9-4e8a-8c76-7c716bfa324d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{30b74ce5-bd9e-4f97-8e9c-7e3fd1bda083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Test_Header">
+      <UniqueIdentifier>{87dd0af2-99f4-4080-8fee-2505dc916a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Test_Cpp">
+      <UniqueIdentifier>{a3b02eb4-e2e4-4fee-981c-0310777dc151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Glad">
+      <UniqueIdentifier>{41263bf9-cea9-4e2c-bbf5-d0a612b576eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Glad\Header">
+      <UniqueIdentifier>{dee57d26-1655-4b3d-95d3-ef22f85bc04d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Glad\C">
+      <UniqueIdentifier>{b3149fd0-16b3-4d5c-bdb0-35c80bde8c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL">
+      <UniqueIdentifier>{cd74be9d-b50e-48f5-b2d7-5c4aa61448a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\SDL_Ctrl">
+      <UniqueIdentifier>{74ce279c-d2bb-4af4-9868-88e87ec4ce92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\SDL_Ctrl\SDL_Button">
+      <UniqueIdentifier>{3c42b73c-9cb4-462d-ac66-d9e33e222b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\SDL_Ctrl\SDL_Meau">
+      <UniqueIdentifier>{75b435cd-46df-4d13-95d2-3ccab70bc87b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\SDL_FrameWork">
+      <UniqueIdentifier>{6cca17b1-59fc-4e20-9d15-80c050274988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\SDL_FrameWork\Cpp">
+      <UniqueIdentifier>{c1acf74d-ce1a-4704-b151-8ce48c648acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\SDL_FrameWork\Header">
+      <UniqueIdentifier>{2133688f-7fb2-4281-ba9f-dd59f7b33dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC">
+      <UniqueIdentifier>{ab4d78aa-38a0-4bb1-91ab-bc2d0b471445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\UI">
+      <UniqueIdentifier>{9adacc64-c311-40ad-a5bf-551d2b92b8e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\UI\MFC_H">
+      <UniqueIdentifier>{b0bc528d-d740-4f20-b329-1e4ccfca575d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\UI\MFC_CPP">
+      <UniqueIdentifier>{02cb01f7-5e50-4604-a7a1-40781d0a2a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\UI">
+      <UniqueIdentifier>{57ec9c0b-d27a-476f-8337-b29937d38ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\UI\SDL_H">
+      <UniqueIdentifier>{eecf5e30-67e1-4e54-a756-aa9378cc29e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\UI\SDL_Cpp">
+      <UniqueIdentifier>{2fb2ae8c-f287-4997-a68b-ec9e8714ce4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\SDL_AnimaSystem">
+      <UniqueIdentifier>{0f0fd72b-9305-4da1-ad7a-882dae9ee857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\SDL_AnimaSystem\Cpp">
+      <UniqueIdentifier>{de3b6d46-8e42-4c39-a31e-e3b58f19108d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\SDL_AnimaSystem\Header">
+      <UniqueIdentifier>{252bf491-e574-413c-bcc1-942f37e0be8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="计划.txt">
+      <Filter>CoreFuction\CoreFunction_Cpp</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CLarBtn.h">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CLarEdit.h">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CLarPngBtn.h">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CLazerStaticText.h">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>AppMain\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>AppMain\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>AppMain\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="theApp.h">
+      <Filter>AppMain\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PngLoader.h">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CLarListBox.h">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CScrollMemDC.h">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CScrollClipManager.h">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioCapture.h">
+      <Filter>CoreFuction\CoreFunction_Header\AudioFuction_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraCapture.h">
+      <Filter>CoreFuction\CoreFunction_Header\CameraFuction_H</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleCapture.h">
+      <Filter>CoreFuction\CoreFunction_Header\VideoFuction_H</Filter>
+    </ClInclude>
+    <ClInclude Include="MicrophoneCapture.h">
+      <Filter>CoreFuction\CoreFunction_Header\MicroFuction_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CMessage.h">
+      <Filter>AppMain\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_WindowRecordDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_VipPayDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_VideoListDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_MainDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_GamingDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_ConfigDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_ChildDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_CameraDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCMediaPlayerDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaSelectDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_AreaRecordingSDL.h">
+      <Filter>SDL\UI\SDL_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_DropdownMenuSDL.h">
+      <Filter>SDL\UI\SDL_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_CameraDisplaySDL.h">
+      <Filter>SDL\UI\SDL_H</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalFunc.h">
+      <Filter>Global\Global_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_LoadingSDL.h">
+      <Filter>SDL\UI\SDL_H</Filter>
+    </ClInclude>
+    <ClInclude Include="WndShadow.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="WasapiCapture.h">
+      <Filter>CoreFuction\CoreFunction_Header\AudioFuction_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_LoginDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_DeviceBindingSDL.h">
+      <Filter>SDL\UI\SDL_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CColorfulEdit.h">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LarPaymentPolling.h">
+      <Filter>Ui_Component\Ui_Component_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_UserProfileSDL.h">
+      <Filter>SDL\UI\SDL_H</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenRecorder.h">
+      <Filter>CoreFuction\CoreFunction_Header\ScreenRecordCore_H</Filter>
+    </ClInclude>
+    <ClInclude Include="GDICapture.h">
+      <Filter>CoreFuction\CoreFunction_Header\VideoFuction_H</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowHandleManager.h">
+      <Filter>CoreFuction\CoreFunction_Header\OtherCoreFuction_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CompatibleManager.h">
+      <Filter>CoreFuction\CoreFunction_Header\OtherCoreFuction_H</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceManager.h">
+      <Filter>CoreFuction\CoreFunction_Header\OtherCoreFuction_H</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordingStats.h">
+      <Filter>CoreFuction\CoreFunction_Header\OtherCoreFuction_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_CameraPreviewSDL.h">
+      <Filter>SDL\UI\SDL_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CDebug.h">
+      <Filter>AppMain\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoStartManager.h">
+      <Filter>CoreFuction\CoreFunction_Header\OtherCoreFuction_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_MessageBoxSDL.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_NoneVipDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogManager.h">
+      <Filter>Global\Global_H</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpRequestHandler.h">
+      <Filter>Global\Global_H</Filter>
+    </ClInclude>
+    <ClInclude Include="ModalDialogFunc.h">
+      <Filter>Global\Global_H</Filter>
+    </ClInclude>
+    <ClInclude Include="LarStringConversion.h">
+      <Filter>Global\Global_H</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigFileHandler.h">
+      <Filter>Global\Global_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_RadarTimerSDL.h">
+      <Filter>SDL\UI\SDL_H</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentAPI.h">
+      <Filter>Ui_Component\Ui_Component_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_SDLMeau.h">
+      <Filter>SDL\SDL_Ctrl\SDL_Meau</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_SDLButton.h">
+      <Filter>SDL\SDL_Ctrl\SDL_Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentClass.h">
+      <Filter>Ui_Component\Ui_Component_H</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLResource.h">
+      <Filter>AppMain\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_RecTopDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_PopupMenuDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_ScreenCaptureDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="AppCloseManager.h">
+      <Filter>Global\Global_H</Filter>
+    </ClInclude>
+    <ClInclude Include="DXGICapture.h">
+      <Filter>CoreFuction\CoreFunction_Header\VideoFuction_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_UserProfileDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="CLarToolsTips.h">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_TestGLSDL.h">
+      <Filter>Test\Test_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="glad.h">
+      <Filter>Glad\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\OpenGL\glad\include\KHR\khrplatform.h">
+      <Filter>Glad\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFocusDetector.h">
+      <Filter>CoreFuction\CoreFunction_Header\OtherCoreFuction_H</Filter>
+    </ClInclude>
+    <ClInclude Include="LLarSDL.h">
+      <Filter>SDL\SDL_FrameWork\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_RaiSDL.h">
+      <Filter>SDL\UI\SDL_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_RedPacketSDL.h">
+      <Filter>SDL\UI\SDL_H</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_AnimaSystemCommon.h">
+      <Filter>SDL\SDL_AnimaSystem\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.h">
+      <Filter>AppMain\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_MouthMemberDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui_LevelUpDlg.h">
+      <Filter>MFC\UI\MFC_H</Filter>
+    </ClInclude>
+    <ClInclude Include="FFmpegTest.h">
+      <Filter>CoreFuction</Filter>
+    </ClInclude>
+    <ClInclude Include="UserActionLogger.h">
+      <Filter>Global\Global_H</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CLarBtn.cpp">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CLarEdit.cpp">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CLazerStaticText.cpp">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CLarPngBtn.cpp">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>AppMain\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="theApp.cpp">
+      <Filter>AppMain\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PngLoader.cpp">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CLarListBox.cpp">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioCapture.cpp">
+      <Filter>CoreFuction\CoreFunction_Cpp\AudioFuction_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraCapture.cpp">
+      <Filter>CoreFuction\CoreFunction_Cpp\CameraFunction_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleCapture.cpp">
+      <Filter>CoreFuction\CoreFunction_Cpp\VideoFuction_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MicrophoneCapture.cpp">
+      <Filter>CoreFuction\CoreFunction_Cpp\MicroFuction_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_AreaRecordingSDL.cpp">
+      <Filter>SDL\UI\SDL_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_DropdownMenuSDL.cpp">
+      <Filter>SDL\UI\SDL_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_WindowRecordDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="AreaSelectDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCMediaPlayerDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_CameraDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_ChildDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_ConfigDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_GamingDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_MainDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_VideoListDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_VipPayDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_CameraDisplaySDL.cpp">
+      <Filter>SDL\UI\SDL_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalFunc.cpp">
+      <Filter>Global\Global_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_LoadingSDL.cpp">
+      <Filter>SDL\UI\SDL_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="WndShadow.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="WasapiCapture.cpp">
+      <Filter>CoreFuction\CoreFunction_Cpp\AudioFuction_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_LoginDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_DeviceBindingSDL.cpp">
+      <Filter>SDL\UI\SDL_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CColorfulEdit.cpp">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="LarPaymentPolling.cpp">
+      <Filter>Ui_Component\Ui_Component_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_UserProfileSDL.cpp">
+      <Filter>SDL\UI\SDL_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenRecorder.cpp">
+      <Filter>CoreFuction\CoreFunction_Cpp\ScreenRecordCore_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="json_reader.cpp">
+      <Filter>JsonCpp\JsonCpp_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="json_value.cpp">
+      <Filter>JsonCpp\JsonCpp_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="json_writer.cpp">
+      <Filter>JsonCpp\JsonCpp_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GDICapture.cpp">
+      <Filter>CoreFuction\CoreFunction_Cpp\VideoFuction_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CompatibleManager.cpp">
+      <Filter>CoreFuction\CoreFunction_Cpp\OtherCoreFunction_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceManager.cpp">
+      <Filter>CoreFuction\CoreFunction_Cpp\OtherCoreFunction_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordingStats.cpp">
+      <Filter>CoreFuction\CoreFunction_Cpp\OtherCoreFunction_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowHandleManager.cpp">
+      <Filter>CoreFuction\CoreFunction_Cpp\OtherCoreFunction_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_CameraPreviewSDL.cpp">
+      <Filter>SDL\UI\SDL_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoStartManager.cpp">
+      <Filter>CoreFuction\CoreFunction_Cpp\OtherCoreFunction_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_MessageBoxSDL.cpp">
+      <Filter>SDL\UI\SDL_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_NoneVipDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogManager.cpp">
+      <Filter>Global\Global_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpRequestHandler.cpp">
+      <Filter>Global\Global_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="LarStringConversion.cpp">
+      <Filter>Global\Global_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_RadarTimerSDL.cpp">
+      <Filter>SDL\UI\SDL_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentAPI.cpp">
+      <Filter>Ui_Component\Ui_Component_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_SDLMeau.cpp">
+      <Filter>SDL\SDL_Ctrl\SDL_Meau</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_SDLButton.cpp">
+      <Filter>SDL\SDL_Ctrl\SDL_Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentClass.cpp">
+      <Filter>Ui_Component\Ui_Component_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_RecTopDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_PopupMenuDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_ScreenCaptureDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="AppCloseManager.cpp">
+      <Filter>Global\Global_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DXGICapture.cpp">
+      <Filter>CoreFuction\CoreFunction_Cpp\VideoFuction_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_UserProfileDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CLarToolTips.cpp">
+      <Filter>MFC_Ctrl\Ui_CtrlReWrite_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CLARTOOLSTIPS.CPP">
+      <Filter>CoreFuction\CoreFunction_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_TestGLSDL.cpp">
+      <Filter>Test\Test_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Glad\C</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFocusDetector.cpp">
+      <Filter>CoreFuction\CoreFunction_Cpp\OtherCoreFunction_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ModalDialogFunc.cpp">
+      <Filter>Global\Global_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="LLarSDL.cpp">
+      <Filter>SDL\SDL_FrameWork\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_RaiSDL.cpp">
+      <Filter>SDL\UI\SDL_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_RedPacketSDL.cpp">
+      <Filter>SDL\UI\SDL_Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL_AnimaSystemCommon.cpp">
+      <Filter>SDL\SDL_AnimaSystem\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_MouthMemberDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui_LevelUpDlg.cpp">
+      <Filter>MFC\UI\MFC_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="FFmpegTest.cpp">
+      <Filter>CoreFuction</Filter>
+    </ClCompile>
+    <ClCompile Include="UserActionLogger.cpp">
+      <Filter>Global\Global_Cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCMediaPlayer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCMediaPlayer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCMediaPlayer.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16177.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16178.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16215.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16216.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16217.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16218.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16219.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16220.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16221.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16222.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16239.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16243.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16244.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16245.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16246.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16251.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16248.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16249.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16227.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16226.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16228.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16229.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\路径 35.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\直线 4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\直线 5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\矩形 9.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SliderBk.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SliderBk2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Thumb.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\thump.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SliderThumb.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SliderDk.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SliderDk2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Slider_thumb.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\AppIocn.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Return_WWDLG.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Refresh.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16237.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16210.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16230.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16231.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16232.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\VLD_Close.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\VLD_retrun.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16176.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16234.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16235.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\原价220元.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16303.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16304.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16305.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16306.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16307.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16308.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16297.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16300.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16298.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\路径 15982.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\minimal.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16190.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\CkAudio.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\CkAudio_Hold.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\NoCkAudio.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\NoCkAudio_Hold.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\CkMicro.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\CkMicro_Hold.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\NoCkMicro.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\NoCkMicro_Hold.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\advanceOpt.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\直线 14.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\直线 2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\thumb.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\VIP.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\signout.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ContactService.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16336.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16337.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\VIP.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\recording.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\MouseAreaRecord.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\kaijiqidong.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\kaijiqidong_hold.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\minimaltobar.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\minimaltobar_hold.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\mouseds_hold.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\quit.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\quit_hold.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16339.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ScreenRec.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\apptrayicon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ApptrayIco.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\MessageBoxQuestionType.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\CloseNoneVip.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\camera.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\water.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\wateron.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\addWindow.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\loginGou.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\record.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\topnail.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\transparent.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Reocrding24.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ScreeShot.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\NoNail.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\payforlong.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16173.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\批量删除.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ContactService.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Icon.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\signout.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\下拉.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\向上.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\路径 15994.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\高级选项.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16164.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16161.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16172.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\路径 16013.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\xialkashuangxian.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16183.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16183 hover.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 9%402x.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16368.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\seasonbk.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\矩形 19.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\停止.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\停止hov.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\暂停.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\暂停hov.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\播放.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\播放hov.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\top播放.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\top暂停.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\矩形 14957.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16452.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16489.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16491.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16494.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16474.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16475.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16495.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16496.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16498.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\组 16550.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\二维码.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
