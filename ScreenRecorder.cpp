@@ -147,7 +147,7 @@ ScreenRecorder::~ScreenRecorder()
     m_Map_RecordCallBackFunc.clear();
     std::map<RecordCallBack, std::function<void()>>().swap(m_Map_RecordCallBackFunc);
 }
-
+//123312312555556
 void ScreenRecorder::SetWindowRecordParam(HWND hWnd, ResolutionRatio resolutionRatio, VideoQuality videoQuality, VideoFormat videoFmt, EncodingPreset EncodingPreset, RecordMode audioCaptureMode, AudioSampleRate audioSampleRate, AudioBitRate audioBitrate, int frameRate)
 {
     if (m_Bool_AreaRecord || m_Bool_RestartRecord || m_Bool_ScreenRecord)

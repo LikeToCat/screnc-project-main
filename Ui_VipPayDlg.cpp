@@ -2327,62 +2327,34 @@ void Ui_VipPayDlg::QRCodeLoadingThread()
             return;
         }
 
-        // 获取当前选中套餐类型
+        // 获取当前选中套餐的信息
         int selectedPriceId = 0;
-        for (const auto& price : m_PriceInfos)
-        {
-            if ((m_SelectedVipType == 0) ||
-                (m_SelectedVipType == 1) ||
-                (m_SelectedVipType == 2) ||
-                (m_SelectedVipType == 3)
-                )
-            {
-                selectedPriceId = price.id;
-                break;
-            }
+        std::string amount_str;
+        std::string title;
+        if (m_SelectedVipType >= 0 && m_SelectedVipType < m_PriceInfos.size()) {
+            selectedPriceId = m_PriceInfos[m_SelectedVipType].id;
+            amount_str = std::to_string(m_PriceInfos[m_SelectedVipType].amount);
+            title = LARSC::CStringToStdString(m_PriceInfos[m_SelectedVipType].name);
         }
 
-        if (selectedPriceId == 0)
-        {
-            DEBUG_CONSOLE_STR(ConsoleHandle, L"加载二维码失败：无法确定选中的价格ID");
+        if (selectedPriceId == 0 || amount_str.empty() || title.empty()) {
+            DEBUG_CONSOLE_STR(ConsoleHandle, L"加载二维码失败：无法获取价格信息");
             m_QRCodeStatus = QR_FAILED;
             Invalidate(FALSE);
             m_ThreadRunning = false;
             return;
         }
 
-        // 构建二维码URL
-        std::string tokenValue;
-#if RELEASE_CODE == 1
-        tokenValue = App.m_appToken;
-#else
-        tokenValue = "oKqdT4g_7O8yLxKtdUeOsoMr85qE22LfzKlotOfAydbcUIVnNklYe-XYmqvzkRORJxlvpHqVor0TEtB6ErJJbWQhMBGdVwCQFg-jxMQR_eY";
-#endif
+        std::string machine_guid = App.m_machine_guid;
 
-        // 转换为多字节字符串用于URL构建
-        std::string preOrderNo;
-#if defined(_WIN64) || defined(__x86_64__) || defined(_M_X64)
-        preOrderNo = CT2A(m_PreOrderNo);
-#else
-        // x86 平台使用更安全的转换
-        CStringA ansiStr(m_PreOrderNo);
-        preOrderNo = ansiStr.GetString();
-#endif     
-        m_preOrderNo = preOrderNo;
+        // 构造GET URL
+        std::string url = "http://localhost:5000/api/pay?machine_guid="
+            + machine_guid + "&type=" + std::to_string(selectedPriceId)
+            + "&pre_order_no=" + LARSC::CStringToStdString(m_PreOrderNo);
 
-        // 构建URL
-        std::string url;
-        url = "http://scrnrec.appapr.com/pay/qrcode?token=" + tokenValue +
-            "&price_id=" + std::to_string(m_PriceInfos[m_SelectedVipType].id) +
-            "&pre_order_no=" + preOrderNo;
-        if (!m_urlCouponAmount.empty())
-            url += m_urlCouponAmount;
-        DEBUG_CONSOLE_FMT(ConsoleHandle, L"请求二维码URL: %hs", url.c_str());
-
-        // 使用CURL获取二维码图像
+        // 使用CURL下载PNG
         CURL* curl = curl_easy_init();
-        if (!curl)
-        {
+        if (!curl) {
             DEBUG_CONSOLE_STR(ConsoleHandle, L"CURL初始化失败");
             m_QRCodeStatus = QR_FAILED;
             Invalidate(FALSE);
@@ -2390,10 +2362,7 @@ void Ui_VipPayDlg::QRCodeLoadingThread()
             return;
         }
 
-        // 存储二维码图像数据
         std::vector<unsigned char> imageBuffer;
-
-        // 设置CURL选项
         curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, QRCodeWriteCallback);
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, &imageBuffer);
